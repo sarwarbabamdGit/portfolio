@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: #1f242d;
+  
+    color: white;
+}
+section  {
+    min-height: 100vh;
+    padding: 10rem 7% 2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+}
+.logo{
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: default;
+    position: fixed;
+    background-color: #1f242d;
+    padding: 20px;
+}
+.navbar {
+    left: 70%;
+    padding: 20px;
+    text-align: right ;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 200px;
+    background-color: #1f242d;
+    z-index: 100;
+  
+ }
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 16px;
+    font-weight: 600;
+    transition: 0.8s all;
+}
+.navbar a:hover{
+  
+    color: #0ef;
+}
+.home-container{
+   
+    justify-content: center;
+    display: flex;
+    padding: 30px ;
+    align-items: center;
+    cursor:default;
+    height: 500px;
+ 
+}
+.home-content h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+.home-content h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    
+}
+.home-content h3 span{
+    color: #0ef;
+}
+.home-content h3{
+    margin: 8px;
+    justify-content: space-between;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.home-content p{
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    max-width: 80%;
+    font-size: 20px
+    
+}
+
+.img>img {
+    height:400px;
+    left: 10px;
+    border: none; 
+    
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px 6px #0ef;
+}
+.about{
+    display: flex;
+    cursor: default;
+}
+.about-content{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-content h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    align-items: center;
+   
+}
+.about-content h1 span{
+    color: #0ef;
+}
+.about-content h3{
+    margin: 8px;
+    justify-content: space-between;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.about-content p{
+    line-height: 1.8;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    max-width: 80%;
+    font-size: 20px;
+}
+.about-content p i{
+    color: #0ef;
+    font-size: 24px; 
+}
+
+.img1 img {
+    height:400px;
+    left: 10px;
+    border: none; 
+    
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px 6px #0ef;
+}
+.social-media i{
+    position: relative;
+    border: 2px solid #0ef;
+    padding: 20px;
+    border-radius: 50%;
+    color: #0ef;
+    margin:3px 8px ;
+   
+}
+.social-media i:hover{
+    box-shadow: 0 0 20px #0ef;
+}
+
+.social-media{
+    z-index: 99;
+    margin: 10px 10px 20px 40px;
+    padding: 10px;
+}
+
+.services h2{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.services h3{
+    line-height: 1.5px;
+    margin: 20px;
+    padding: 10px;
+}
+.services-content p{
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+span{
+    color: #0ef;
+}
+.services-content i{
+    color: #0ef;
+    font-size: 40px;
+}
+.contact {
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 20px;
+}
+.contact form {
+    text-align: center;
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    align-items: center;
+    padding: 10px;
+}
+
+.contact form .input-box input {
+    width: 35%;
+    box-shadow: 0 .1rem .5rem #0ef;
+    padding: 10px;
+    margin: 5px;
+    background-color: #1f242d;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+  
+}
+.contact form textarea {
+    width: 80%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border-radius: .8rem;
+    margin: .7rem 0;
+    box-shadow: 0 .1rem .5rem #0ef;
+    align-items: center;
+    background-color: #1f242d;
+    color: #595d62;
+
+}
+.contact form .btn {     
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 .1rem .5rem #0ef;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: #1f242d;
+}
+
+
+
+
+
+
+
